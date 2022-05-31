@@ -1,0 +1,41 @@
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 70px;
+    margin: 0;
+}
+.title_h2{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 40px;
+}
+
+.navbar-toggler{
+    display: flex;
+    margin: auto;
+}
+
+.navbar-collapse{
+    display: flex;
+    margin: auto;
+}
+
+
+.main_ropa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.main_ropa img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.main ul{
+    padding: 0;
+}
