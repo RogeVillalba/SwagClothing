@@ -3,7 +3,11 @@
     padding:0;
 }
 /*Header*/
-
+header{
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662),rgba(225, 203, 101, 0.24), rgb(245, 216, 216)
+   , rgba(225, 203, 101, 0.24), rgba(189, 176, 179, 0.662));
+}
 .title{
     display: flex;
     flex-direction: column;
@@ -145,6 +149,7 @@ H5{
 .icon__instagram{
     display: block;
     margin: auto;
+    justify-content: center;
 }
 .footer__atajo{
     justify-content: space-around;
