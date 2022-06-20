@@ -3,6 +3,7 @@
     padding:0;
 }
 /*Header*/
+
 .title{
     display: flex;
     flex-direction: column;
@@ -45,6 +46,7 @@
 .main{
     background-color: rgba(189, 176, 179, 0.662);
     height: auto;
+    max-width: 100%;
 }
 
 .main_ropa{
@@ -57,13 +59,17 @@
 }
 
 .main_ropa img{
-    max-width: 180px;
+    max-width: 150px;
     height: 200px;
     margin: auto;
     display: block;
 }
 .main ul{
     padding: 0;
+}
+.product__img--general{
+    height: 150px;
+    width: 150px;
 }
 .product_category{
     opacity: .5;
@@ -102,12 +108,32 @@ H5{
 }
 
 .footer{
-    background-color: rgb(94, 82, 82);
-    height: auto;
+    background-color: rgb(112, 103, 103);
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.footer li{
+    display: block;
+
+}
+.footer img{
+   
+
+}
+.redes {
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+.footer h6{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration:overline;
 }
 .maps{
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
