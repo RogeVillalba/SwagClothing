@@ -101,12 +101,17 @@ H5{
     box-shadow: 5px 0px 10px black;
     margin-top: 10px;
     transition: .5s;
+    display: none;
 }
 .card{
     margin: auto;
     top: 30px;
 }
-
+.fa-instagram{
+    display: block;
+    font-size: 50px;
+    margin: auto;
+}
 .footer{
     background-color: rgb(112, 103, 103);
     max-height: auto;
@@ -117,15 +122,10 @@ H5{
     display: block;
 
 }
-.footer img{
-   
+.footer ul{
+    padding: 0;
+}
 
-}
-.redes {
-    height: 50px;
-    display: flex;
-    margin: auto;
-}
 .footer h6{
     padding-top: 10px;
     text-align: center;
@@ -136,7 +136,19 @@ H5{
     width: 80%;
     margin: auto;
 }
-
+.icon__contactanos{
+    padding-right: 10px;
+}
+.p__rv{
+    text-decoration:overline;
+}
+.icon__instagram{
+    display: block;
+    margin: auto;
+}
+.footer__atajo{
+    justify-content: space-around;
+}
 /*estilos de productos*/
 .container-products{
     display: grid;
