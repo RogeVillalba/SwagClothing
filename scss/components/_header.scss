@@ -1,7 +1,8 @@
 header{
     height: 200px;
-    background-image: $color-header;
-
+    background-color: rgb(209, 209, 209);
+    
+    
     .title{
         display: flex;
         flex-direction: column;
@@ -19,5 +20,12 @@ header{
     }
     a{
         text-decoration: none;
+    }
+    .logo{
+        display: flex;
+        margin: auto;
+        height: 400px;
+        width: 350px;
+        padding-bottom: 180px;
     }
 }

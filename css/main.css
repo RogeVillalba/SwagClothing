@@ -1,6 +1,6 @@
 header {
   height: 200px;
-  background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662), rgba(112, 110, 101, 0.24), #f5d8d8, rgba(112, 110, 101, 0.24), rgba(189, 176, 179, 0.662)); }
+  background-color: #d1d1d1; }
   header .title {
     display: flex;
     flex-direction: column;
@@ -16,6 +16,12 @@ header {
     text-decoration: none; }
   header a {
     text-decoration: none; }
+  header .logo {
+    display: flex;
+    margin: auto;
+    height: 400px;
+    width: 350px;
+    padding-bottom: 180px; }
 
 .footer {
   background-color: #706767;
@@ -72,7 +78,7 @@ header {
       margin: auto; }
 
 .main {
-  background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662), rgba(28, 25, 14, 0.24), #f5d8d8, rgba(28, 25, 14, 0.24), rgba(189, 176, 179, 0.662));
+  background-color: white;
   height: auto;
   max-width: 100%; }
   .main H5 {
@@ -102,7 +108,7 @@ header {
   border: solid 1px;
   padding: 7px;
   border-radius: 5px;
-  background-color: grey;
+  background-color: #bdbcbc;
   color: black;
   box-shadow: 5px 0px 10px black;
   margin-top: 10px;
@@ -122,8 +128,10 @@ header {
   border-radius: 10px; }
 
 .card {
+  background-color: #b694cb;
   margin: auto;
-  top: 30px; }
+  top: 30px;
+  background-image: linear-gradient(to right, #b694cb, grey, grey, grey, #b694cb); }
   .card .card-header {
     letter-spacing: 0.1em;
     color: black;
@@ -137,13 +145,14 @@ header {
     font-family: 'ZCOOL KuaiLe', cursive; }
 
 .product {
-  border: 4px solid #de7575;
+  border: 1px solid black;
   border-radius: 20px;
-  box-shadow: 3px 0px 7px black; }
+  box-shadow: 3px 0px 7px black;
+  background-color: #a29fa3; }
 
 .product__title__index {
   display: grid;
-  background-color: #c47575;
+  background-color: #a29fa3;
   padding-top: 7px;
   padding-bottom: 7px;
   opacity: 0.9;
