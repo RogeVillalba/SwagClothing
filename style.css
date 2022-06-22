@@ -6,8 +6,8 @@
 
 header{
     height: 200px;
-    background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662),rgba(225, 203, 101, 0.24), rgb(245, 216, 216)
-   , rgba(225, 203, 101, 0.24), rgba(189, 176, 179, 0.662));
+    background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662),rgba(28, 25, 14, 0.24), rgb(245, 216, 216)
+   , rgba(28, 25, 14, 0.24), rgba(189, 176, 179, 0.662));
 }
 .title{
     display: flex;
@@ -49,26 +49,12 @@ header{
     background-image: linear-gradient(to right, rgb(146, 145, 145), rgb(159, 159, 159),rgb(159, 159, 159), rgb(159, 159, 159), rgb(146, 145, 145));
 }
 .main{
-    background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662),rgba(225, 203, 101, 0.24), rgb(245, 216, 216)
-    , rgba(225, 203, 101, 0.24), rgba(189, 176, 179, 0.662));    height: auto;
+    background-image: linear-gradient(to right, rgba(189, 176, 179, 0.662),rgba(28, 25, 14, 0.24), rgb(245, 216, 216)
+   ,  rgba(28, 25, 14, 0.24), rgba(189, 176, 179, 0.662)); 
+    height: auto;
     max-width: 100%;
 }
 
-.main_ropa{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.main_ropa img{
-    max-width: 150px;
-    height: 200px;
-    margin: auto;
-    display: block;
-}
 .main ul{
     padding: 0;
 }
@@ -150,6 +136,9 @@ H5{
 .icon__instagram{
     display: flex;
     justify-content: center;
+}
+.card-text{
+    letter-spacing: 0.2em;
 }
 .footer__atajo{
     display: flex;

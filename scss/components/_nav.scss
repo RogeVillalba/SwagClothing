@@ -1,0 +1,13 @@
+.navbar{
+    background-color:rgb(190, 190, 190) ;
+    background-image: linear-gradient(to right, rgb(146, 145, 145), rgb(159, 159, 159),rgb(159, 159, 159), rgb(159, 159, 159), rgb(146, 145, 145));
+    .navbar-toggler{
+        display: flex;
+        margin: auto;
+
+        .navbar-collapse{
+            display: flex;
+            margin: auto;
+        }
+    }
+}
