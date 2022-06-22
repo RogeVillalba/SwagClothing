@@ -18,13 +18,13 @@ header {
     text-decoration: none; }
   header .logo {
     display: flex;
-    margin: auto;
-    height: 400px;
-    width: 350px;
-    padding-bottom: 180px; }
+    padding-right: 130px;
+    height: 500px;
+    width: 500px;
+    padding-bottom: 280px; }
 
 .footer {
-  background-color: #706767;
+  background-color: #A29FA3;
   max-height: auto;
   display: flex;
   flex-direction: column; }
