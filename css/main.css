@@ -1,27 +1,11 @@
 header {
   height: 200px;
-  background-color: #d1d1d1; }
-  header .title {
-    display: flex;
-    flex-direction: column;
-    font-family: 'ZCOOL KuaiLe', cursive;
-    font-size: 70px;
-    margin: 0;
-    color: black;
-    text-decoration: none; }
-  header .title_h2 {
-    font-family: 'ZCOOL KuaiLe', cursive;
-    font-size: 40px;
-    color: black;
-    text-decoration: none; }
+  background-color: white; }
   header a {
     text-decoration: none; }
   header .logo {
     display: flex;
-    padding-right: 130px;
-    height: 500px;
-    width: 500px;
-    padding-bottom: 280px; }
+    margin: auto; }
 
 .footer {
   background-color: #A29FA3;
@@ -114,21 +98,20 @@ header {
   margin-top: 10px;
   transition: .5s; }
 
-.product {
-  border: 4px solid #de7575;
-  border-radius: 20px;
-  box-shadow: 3px 0px 7px black; }
-
-.product__title__index {
-  display: grid;
-  background-color: #c47575;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  opacity: 0.9;
-  border-radius: 10px; }
+.button__agotado {
+  display: flex;
+  width: fit-content;
+  height: 35px;
+  border: solid 1px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #d58484;
+  color: black;
+  box-shadow: 5px 0px 10px black;
+  margin-top: 10px;
+  transition: .5s; }
 
 .card {
-  background-color: #b694cb;
   margin: auto;
   top: 30px;
   background-image: linear-gradient(to right, #b694cb, grey, grey, grey, #b694cb); }

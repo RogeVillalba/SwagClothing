@@ -1,31 +1,12 @@
 header{
     height: 200px;
-    background-color: rgb(209, 209, 209);
-    
-    
-    .title{
-        display: flex;
-        flex-direction: column;
-        font-family: 'ZCOOL KuaiLe', cursive;
-        font-size: 70px;
-        margin: 0;
-        color: black;
-        text-decoration: none;
-    }
-    .title_h2{
-        font-family: 'ZCOOL KuaiLe', cursive;
-        font-size: 40px;
-        color: black;
-        text-decoration: none;
-    }
+    background-color: rgb(255, 255, 255);    
     a{
         text-decoration: none;
     }
     .logo{
         display: flex;
-        padding-right: 130px;
-        height: 500px;
-        width: 500px;
-        padding-bottom: 280px;
+        margin: auto;
+
     }
 }
