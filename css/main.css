@@ -75,13 +75,13 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px; }
     .main .container-products .product {
-      width: 170px; }
+      width: 160px; }
     .main .container-products .product__img--general {
       object-fit: cover;
       border-radius: 20px;
       box-shadow: 5px 0px 10px black;
       height: 170px;
-      width: 170px; }
+      width: 175px; }
       .main .container-products .product__img--general .product__title {
         opacity: 0.5; }
         .main .container-products .product__img--general .product__title .product__price {
