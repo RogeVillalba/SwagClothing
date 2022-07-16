@@ -82,7 +82,8 @@ header {
       border-radius: 20px;
       box-shadow: 5px 0px 10px black;
       height: 180px;
-      width: 155px; }
+      width: 155px;
+      background-color: white; }
       .main .container-products .product__img--general .product__title {
         color: white;
         opacity: 0.5; }
