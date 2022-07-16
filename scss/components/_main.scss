@@ -1,13 +1,14 @@
 .main{  
-    background-color: white;
+    background-color: rgb(25, 25, 25);
     height: auto;
     max-width: 100%;
     H5{
         font-family: 'ZCOOL KuaiLe', cursive;
+        color: white;
     }
     a{
         text-decoration: none;
-        color: black;
+        color: white;
     } 
    
    .container-products{
@@ -23,13 +24,15 @@
             border-radius: 20px;
             box-shadow: 5px 0px 10px black;
             height: 180px;
-            width: 165px;
+            width: 155px;
         
             .product__title{
+                color: white;
                 opacity: 0.5;
             
                 .product__price {
                     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: white;
                 }  
             }  
             
@@ -37,6 +40,14 @@
     }
     
 }    
+.product__title{
+    color: white;
+    opacity: 0.5;
+}
+.product__price {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}  
 
 .button{
     display: flex;
