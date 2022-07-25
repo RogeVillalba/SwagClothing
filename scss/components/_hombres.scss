@@ -1,0 +1,11 @@
+.product{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 3px 0px 7px black;
+    background-color: rgb(162, 159, 163);
+}
+.product__img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}

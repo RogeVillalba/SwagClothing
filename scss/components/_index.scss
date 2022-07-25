@@ -18,23 +18,30 @@
         font-family: 'ZCOOL KuaiLe', cursive;
     }
 }
-.product{
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    box-shadow: 3px 0px 7px black;
-    background-color: rgb(162, 159, 163);
-}
 
 .product__title__index{
     display: grid;
-    background-color: rgb(162, 159, 163);
+    background-image: linear-gradient(to right, rgb(182, 148, 203),grey,grey,grey,rgb(182, 148, 203));
     padding-top: 7px;
     padding-bottom: 7px; 
     opacity: 0.9;
     border-radius: 10px;
 }
-.product__img{
-    max-width: 100%;
-    object-fit: cover;
+
+.containerIndex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.product-index{
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
+    box-shadow: 3px 0px 7px black;
+    background-image: linear-gradient(to right, rgb(182, 148, 203),grey,grey,grey,rgb(182, 148, 203));
+    width: 70%;
+    margin: auto;
+}
+.product__img__index{
+    display: block;
+    margin: auto; 
 }
