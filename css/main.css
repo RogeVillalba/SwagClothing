@@ -240,3 +240,11 @@ body {
   margin-top: 10px;
   transition: .5s;
   margin: auto; }
+
+.botonRifa {
+  display: flex;
+  margin: auto;
+  background-color: #bceae9; }
+
+.card-rifa {
+  background-color: #717171; }
