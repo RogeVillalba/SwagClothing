@@ -241,6 +241,20 @@ body {
   transition: .5s;
   margin: auto; }
 
+.button__agotado__nd {
+  display: flex;
+  width: fit-content;
+  height: 35px;
+  border: solid 1px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #d58484;
+  color: black;
+  box-shadow: 5px 0px 10px black;
+  margin-top: 10px;
+  transition: .5s;
+  margin: auto; }
+
 .botonRifa {
   display: flex;
   margin: auto;
