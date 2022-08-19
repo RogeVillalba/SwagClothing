@@ -4,5 +4,15 @@
     background-color: rgb(188, 234, 233);
 }
 .card-rifa{
-    background-color: rgb(113, 113, 113);
+    margin: auto;
+    top: 30px;
+    background-image: linear-gradient(to right, rgb(182, 148, 203),grey,grey,grey,rgb(182, 148, 203));
+    .card-text-rifa{
+        letter-spacing: 0.1em;
+        color: rgb(0, 0, 0);
+        font-family: 'ZCOOL KuaiLe', cursive;
+      
+    }
 }
+
+ 

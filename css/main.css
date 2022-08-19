@@ -261,4 +261,10 @@ body {
   background-color: #bceae9; }
 
 .card-rifa {
-  background-color: #717171; }
+  margin: auto;
+  top: 30px;
+  background-image: linear-gradient(to right, #b694cb, grey, grey, grey, #b694cb); }
+  .card-rifa .card-text-rifa {
+    letter-spacing: 0.1em;
+    color: black;
+    font-family: 'ZCOOL KuaiLe', cursive; }
