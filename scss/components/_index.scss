@@ -47,3 +47,30 @@
     display: block;
     margin: auto; 
 }
+
+@media (min-width: 768px){
+    #navbarNavDropdown ul{
+        margin: auto;
+        
+    }
+    .navbar-toggler-icon{
+        display: none;
+    }
+    #carouselExampleCaptions{
+        width: 700px;
+        margin: auto;
+    }
+    .container-products-index{
+        display: flex;
+        justify-content: space-around;
+        margin: auto; 
+    }
+    .product-index{
+        display: flex;
+        justify-content: space-around;
+        width: 400px;
+    
+    }
+   
+}
+ 

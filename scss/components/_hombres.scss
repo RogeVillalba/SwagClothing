@@ -9,3 +9,21 @@
     object-fit: cover;
     border-radius: 20px;
 }
+
+@media (min-width: 768px){
+    #navbarNavDropdown ul{
+        
+
+    }
+    #main-hombres{
+        background-image: linear-gradient(to right, rgb(114, 68, 114), black, black, black, black, rgb(114, 68, 114));
+    }
+    .product{
+        display: flex;
+        margin: auto;
+    }
+    .navbar-nav a{
+        color: black;
+    }
+   
+}
